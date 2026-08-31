@@ -1,7 +1,7 @@
-# ShoppingButler
+# Shopping Butler
 
 A conversational shopping agent for the TechJam Conversational E-Commerce
-Search Challenge. ShoppingButler routes each turn onto one of two tracks — a
+Search Challenge. Shopping Butler routes each turn onto one of two tracks — a
 narrow, phrase-locked **Buying** track once the customer has stated concrete
 constraints, or a wide, category-driven **Browsing** track while they
 haven't — then re-scores the retrieved candidates by verbatim constraint-phrase
@@ -30,7 +30,7 @@ choice, limitations, and the latency/token/cost disclosure) required by
 
 **Optional: Ollama, for the LLM-assisted path**
 
-ShoppingButler runs fully offline by default (see [Model Choice](#model-choice)
+Shopping Butler runs fully offline by default (see [Model Choice](#model-choice)
 below), but its shipped configuration also calls a local **Ollama** server.
 Skip this if you only want to reproduce the deterministic reference score.
 
